@@ -1,0 +1,196 @@
+[API Trapper      (2740:1d28)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (2680:1900)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2680:1270)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2680:1270)] Load Network Traffic Analyzers:
+[Network Analyzer (2680:1270)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2680:1270)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2680:1270)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2680:1270)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2680:1270)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2680:1270)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2680:1270)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2680:1270)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2680:22fc)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Net An. Warning  (2680:1270)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2680:2660)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2680:1270)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2680:2660)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2680:1270)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2680:1270)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2680:2660)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2680:2660)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2680:1440)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:14b0)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:1440)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2680:14b0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (2680:22fc)] "GET /WebTours/"   
+[Network Analyzer (2680:22fc)]   (Sid:  1) Client -> Server @ : 278 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/header.html"   
+[Network Analyzer (2680:22fc)]   (Sid:  1) Client -> Server @ : 331 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (2680:22fc)]   (Sid:  2) Client -> Server @ : 342 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  2) Server -> Client : 1067 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (2680:22fc)]   (Sid:  1) Client -> Server @ : 436 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (2680:22fc)]   (Sid:  2) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer (2680:1270)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:22fc)]   (Sid:  1) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2680:22fc)]   (Sid:  1) Client -> Server @ : 429 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  2) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (2680:1270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2680:1440)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Web Request      (2680:22fc)] "GET /WebTours/home.html"   
+[Network Analyzer (2680:27b0)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:22fc)]   (Sid:  3) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  3) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer (2680:1440)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2680:27b0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2680:22fc)]   (Sid:  1) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  1) Client -> Server @ : 440 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /favicon.ico"   
+[Network Analyzer (2680:22fc)]   (Sid:  1) Client -> Server @ : 296 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  1) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (2680:22fc)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (2680:22fc)]   (Sid:  1) Connection Terminated (by Server)
+[Web Request      (2680:22fc)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (2680:22fc)]   (Sid:  4) Client -> Server @ : 637 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 842 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (2680:22fc)]   (Sid:  4) Client -> Server @ : 529 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (2680:22fc)]   (Sid:  5) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 1157 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  4) Client -> Server @ : 553 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  5) Client -> Server @ : 555 bytes (Service=HTTP)
+[Network Analyzer (2680:25ac)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (2680:25ac)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (2680:22fc)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (2680: 2c4)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:22fc)]   (Sid:  6) Client -> Server @ : 553 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  5) Client -> Server @ : 553 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  6) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (2680: 2c4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (2680:22fc)]   (Sid:  4) Client -> Server @ : 543 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (2680:22fc)]   (Sid:  4) Client -> Server @ : 546 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (2680:22fc)]   (Sid:  5) Client -> Server @ : 547 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  4) Client -> Server @ : 559 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  6) Client -> Server @ : 553 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  6) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 4234 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 281 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  5) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/classes/"   
+[Network Analyzer (2680:22fc)]   (Sid:  5) Client -> Server @ : 549 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/classes/"   
+[Network Analyzer (2680:22fc)]   (Sid:  5) Client -> Server @ : 549 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (2680:22fc)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (2680:22fc)]   (Sid:  5) Connection Terminated (by Server)
+[Web Request      (2680:22fc)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (2680:22fc)]   (Sid:  7) Client -> Server @ : 875 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  7) Server -> Client : 2705 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (2680:1440)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:1270)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:1440)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (2680:22fc)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (2680:22fc)]   (Sid:  8) Client -> Server @ : 766 bytes (Service=HTTP)
+[Network Analyzer (2680:1270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2680:22fc)]   (Sid:  8) Server -> Client : 2937 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2680: 2c4)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:14b0)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680:27b0)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680: 2c4)] Request Connection: Remote Server @ 68.232.34.200:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2680:27b0)] Request Connection: Remote Server @ 68.232.34.200:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2680:14b0)] Request Connection: Remote Server @ 68.232.34.200:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (2680:1f58)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-RC4-SHA)
+[Net An. Error    (2680:1f58)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2680:193c)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-RC4-SHA)
+[Net An. Error    (2680:193c)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2680:1d70)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-RC4-SHA)
+[Net An. Error    (2680:1d70)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2680:22fc)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (2680:22fc)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (2680:22fc)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (2680:22fc)]   (Sid:  8) Connection Terminated (by Server)
+[Web Request      (2680:22fc)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (2680:22fc)]   (Sid:  9) Client -> Server @ : 927 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 2838 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  9) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 1103 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (2680:22fc)]   (Sid:  9) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 813 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (2680:22fc)]   (Sid:  9) Client -> Server @ : 527 bytes (Service=HTTP)
+[Network Analyzer (2680: 2c4)] Address lookup for OD-L-1209001 = 172.23.67.33
+[Network Analyzer (2680: 2c4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (2680:22fc)]   (Sid: 13) Client -> Server @ : 510 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  9) Client -> Server @ : 539 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 2877 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (2680:22fc)]   (Sid: 13) Client -> Server @ : 527 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (2680:22fc)]   (Sid:  9) Client -> Server @ : 531 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 1128 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (2680:22fc)]   (Sid: 13) Client -> Server @ : 674 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 1149 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (2680:22fc)]   (Sid: 13) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 1066 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2680:22fc)]   (Sid: 13) Client -> Server @ : 426 bytes (Service=HTTP)
+[Web Request      (2680:22fc)] "GET /WebTours/home.html"   
+[Network Analyzer (2680:22fc)]   (Sid:  9) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid:  9) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (2680:22fc)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)

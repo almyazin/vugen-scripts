@@ -1,0 +1,11 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2015/07/14 06:15:49
+StartRecordingIsDst_1=1
+StartRecordingGMT_2=2015/07/14 06:23:40
+StartRecordingIsDst_2=1
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+[Security]
+UsingPersistForAuthentication=1
+[UserHomePage]
+UserHomePage=about:blank
